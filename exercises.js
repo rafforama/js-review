@@ -80,6 +80,9 @@ console.log(india);
 Add another popular tourist attraction to the india variable from position 1 of the index.
 (hint, it is not the push() method). Console log the variable.*/
 
+india[1] = "Jaisalmer";
+console.log(india);
+
 /*9. Removing the last element from an array.
 Using the same india variable, remove the last element from the array. Console log the variable. */
 
