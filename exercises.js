@@ -13,15 +13,39 @@ var yourName = "Rafael Montero";
 var neighborName = "Clarence Yee";
 var teacherName = "Mr. Ruppa";
 
+console.log(yourName);
+console.log(neighborName);
+console.log(teacherName);
+
 /*2. Variable with a Number as their value.
 Declare variables named numberOfFloorsBurjKhalifa, TokyoOlympicsYear. Please assign the actual data for each variable.
 Console log each variable.*/
 
+var numberOfFloorsBurjKhalifa = 163;
+var TokyoOlympicsYear = 2020;
+
+console.log(numberOfFloorsBurjKhalifa);
+console.log(TokyoOlympicsYear);
+
 /*3. Variables with Boolean values
 Declare variables named lovesPrepClass, eatsDonuts, drinksGin.  Console log each variable.*/
 
+var lovesPrepClass = true;
+var eatsDonuts = false;
+var drinksGin = false;
+
+console.log(lovesPrepClass);
+console.log(eatsDonuts);
+console.log(drinksGin);
+
 /*4. Variable with Null values
 Declare variables named completedCodingChallenge, traveledToSpace.  Console log each variable*/
+
+var completedCodingChallenge = null;
+var traveledToSpace = null;
+
+console.log(completedCodingChallenge);
+console.log(traveledToSpace);
 
 /*5.  Variables with Array for its value.
 Declare a variable named japanPrefectures and assign the value of any 5 prefectures in Japan.
@@ -29,15 +53,28 @@ Console log the variable
 Console log the value at index 1.
 Console log the value at index 3.*/
 
+var japanPrefectures = ["Hokkaido", "Iwate", "Fukushima", "Nagano", "Niigata"];
+console.log(japanPrefectures);
+console.log(japanPrefectures[1]);
+console.log(japanPrefectures[3]);
+
 /*6.  Variable with Array for its value.
 Declare a variable named planets and assign the value of each planet in our solar system, in the order of distance from the sun.  
 Console log the variable
 Console log "Earth" using the index position
 Console log "Uranus" using the index position*/
 
+var planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"];
+console.log(planets);
+console.log(planets[2]);
+console.log(planets[6]);
+
 /*7. Variables with Array for its value.
 Declare a variable named india and assign the value of 3 popular tourist attractions.  
 Console log the variable.*/
+
+var india = ["Taj Mahal", "Varanasi", "Ellora Caves"];
+console.log(india);
 
 /*8. Adding new elements to an array.
 Add another popular tourist attraction to the india variable from position 1 of the index.
